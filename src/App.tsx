@@ -95,7 +95,7 @@ function App() {
         <p>
           Desenvolvido por João Victor Gouveia
         </p>
-        <a href="">Link do Projeto</a>
+        <a href="https://github.com/JoaoVictorDevMeta/Mapa-de-Aprendizagem-PBL2">Link do Projeto</a>
       </footer>
     </>
   )
