@@ -7,6 +7,7 @@ type Item = {
     hrefs: string[];
     icon: ComponentType;
     imagem: string;
+    tipo: string;
 }
 
 function Card(props:Item) {
@@ -30,6 +31,9 @@ function Card(props:Item) {
 
             <div className='text'>
                 <hr />
+
+                <h5>{props.tipo}</h5>
+
                 <span>
                     <props.icon />
                 </span>

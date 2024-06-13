@@ -3,12 +3,14 @@ import Creative from './assets/img/creative.jpg'
 import Leader from './assets/img/Lideranca.png'
 import Problem from './assets/img/problem.jpg'
 import Init from './assets/img/iniciativa.jpg'
-import Colab from './assets/img/leadership.jpg'
+import Colab from './assets/img/Originalidade.jpg'
 
 import Card from './components/Card'
 import { HiLightBulb } from "react-icons/hi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaClipboardQuestion } from "react-icons/fa6";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { HiFingerPrint } from "react-icons/hi";
 
 function App() {
 
@@ -27,9 +29,10 @@ function App() {
           <Card 
             titulo='Criatividade' 
             icon={HiLightBulb} 
+            tipo='Execução de Projetos'
             descricao={[
             'Capacidade de criar, inovar e inventar métodos ou coisas novas.',
-            'Apresentação de conteudos aprendidos em forma de website, como feito na sprint para aprender Scrum, Angular e neste mapa de aprendizagem de PBL2, utilizando tecnolgias relacionadas ao projeto. produção dos sites abaixo.'
+            'Apresentação de conteudos aprendidos em forma de website, como feito na sprint para aprender Scrum, Angular e neste mapa de aprendizagem de PBL2, utilizando tecnolgias relacionadas ao projeto. Produção dos sites abaixo.'
             ]}
             imagem={Creative}
             links={[
@@ -44,6 +47,7 @@ function App() {
           <Card 
             titulo='Liderança' 
             icon={FaPeopleGroup} 
+            tipo='Formação de RH'
             descricao={[
             'Capacidade liderar, influenciar e se comunicar com uma equipe',
             'Mentoria e Ensinamento dos integrantes do Médio, mesmo sendo do médio',
@@ -56,6 +60,7 @@ function App() {
           <Card 
             titulo='Resolução de Problemas' 
             icon={FaClipboardQuestion} 
+            tipo='Execução de Projetos'
             descricao={[
             'Capacidade de lidar com problemas e propor soluções',
             'Resolução de problemas gerais com colegas do projeto',
@@ -67,7 +72,8 @@ function App() {
           />
           <Card 
             titulo='Iniciativa' 
-            icon={FaClipboardQuestion} 
+            icon={FaChalkboardTeacher} 
+            tipo='Gestão de Projeto'
             descricao={[
             'Capacidade de dar início a uma possível solução ou objetivo',
             'Sugestões de reuniões e métodos de organização com colegas do Front-End',
@@ -78,12 +84,13 @@ function App() {
             hrefs={[]}
           />
           <Card 
-            titulo='Colaboração' 
-            icon={FaClipboardQuestion} 
+            titulo='Originalidade' 
+            icon={HiFingerPrint} 
+            tipo='Formação de RH'
             descricao={[
-            'Capacidade de dar início a uma possível solução ou objetivo',
-            'Sugestões de reuniões e métodos de organização com colegas do Front-End',
-            'Reuniões após dailys para decidir e comentar sobre os objetivos e organização do código front-end. Sugestão de mentorias a parte para colegas do médio.'
+            'Capacidade de desenvolver soluções que outras pessoas não conseguem imaginar',
+            'Criação de métodos próprios, como websites, para aprendizagem e organização do projeto',
+            'Criação de websites em meio a aprendizagem como forma de fortalecer o conhecimento necessário para o projeto. Criação do Mapa de Aprendizagem em formato Website.'
             ]}
             imagem={Colab}
             links={[]}

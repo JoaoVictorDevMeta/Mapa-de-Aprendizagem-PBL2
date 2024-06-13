@@ -17,6 +17,7 @@ h2{
 }
 .card{
     width: 30%;
+    min-width: 330px;
     margin-top: 40px;
     /*height: fit-content;*/
     /*cursor: pointer;*/
@@ -25,7 +26,7 @@ h2{
 }
 .card .text{
     text-align: center;
-    padding: 0px 60px 30px;
+    padding: 0px 40px 20px;
 }
 hr{
     margin-bottom: 20px;
@@ -40,6 +41,7 @@ hr{
 }
 .title > h3{
     position: absolute;
+    text-align: center;
     color: white;
     z-index: 1;
     font-size: 32px;
@@ -111,6 +113,12 @@ hr{
     font-size: 90px;
     color: var(--dk-theme-background-soft);
 }
+.text h5{
+    background: var(--color-theme);
+    padding: 15px 0px;
+    color: white;
+    font-size: 24px;
+}
 
 .content {
     max-height: 0;
@@ -144,4 +152,13 @@ footer a{
 
 .image.visible img{
     filter: brightness(0.6) grayscale(0);
+}
+
+@media (max-width: 991.98px) {
+    header h1{
+        font-size: 30px;
+    }
+    footer{
+        margin-top: 30px;
+    }
 }
